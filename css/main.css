@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body{background-color:#00DDEE}
+
+.imgsComics{
+  width:75%;
+}
+
+.text{
+  height:20%;
+
+}
+
+.comics{
+
+  float:left;
+  text-align:center;
+  width:25%;
+  height:500px;
+  border:2px solid black;
+  background-color:white;
+    overflow:scroll;
+    margin-top:5%;
+}
+
+.comics:hover{
+    transition-duration: 1s;
+    transform:scale(1.1,1.1);
+    border:5px solid red;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
